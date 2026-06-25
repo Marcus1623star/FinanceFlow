@@ -36,6 +36,7 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.core.ktx)
     implementation(platform("com.google.firebase:firebase-bom:33.9.0"))
+    implementation(libs.androidx.recyclerview)
     implementation(libs.firebase.database)
     implementation(libs.material)
     testImplementation(libs.junit)
