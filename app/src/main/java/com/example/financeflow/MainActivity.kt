@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         btsalvar.setOnClickListener {
-            val numero = (1..Long.MAX_VALUE).random()
+            val numero = (1..999999999).random()
             val valor = etvalor.text.toString()
             val descricao = etdescricao.text.toString()
             val dataselecionada = etdata.text.toString()

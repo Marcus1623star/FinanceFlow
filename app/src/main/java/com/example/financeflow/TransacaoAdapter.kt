@@ -7,8 +7,8 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import android.graphics.ColorMatrixColorFilter
 
-class TransacaoAdapter(private val transacoes: List<Transacoes>) :
-    RecyclerView.Adapter<TransacaoAdapter.transacaoViewHolder>() {
+class TransacoesAdapter(private val transacoes: List<Transacoes>) :
+    RecyclerView.Adapter<TransacoesAdapter.transacaoViewHolder>() {
     class transacaoViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val descricaoTextView: TextView = itemView.findViewById(R.id.tvdecricao_item)
         val tipoTextView: TextView = itemView.findViewById(R.id.tvtipo_item)
